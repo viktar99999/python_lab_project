@@ -1,10 +1,10 @@
+import random
+import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 import scipy
-import sklearn
-import matplotlib.pyplot as plt
 import seaborn as sns
-import random
+import sklearn
 from sklearn.model_selection import train_test_split, cross_val_score
 from sklearn.preprocessing import StandardScaler, MinMaxScaler
 from sklearn.ensemble import RandomForestRegressor

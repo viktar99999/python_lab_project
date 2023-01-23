@@ -17,7 +17,7 @@ df.dtypes
 df.info()
 X = df.iloc[:, 0:19]
 y = df.iloc[:, 19]
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.88, random_state=42)
 sc = StandardScaler()
 X_train = sc.fit_transform(X_train)
 X_test = sc.transform(X_test)
@@ -25,5 +25,4 @@ regressor = RandomForestRegressor(n_estimators=20, random_state=42)
 regressor.fit(X_train, y_train)
 y_pred = regressor.predict(X_test)
 r2(y_test, y_pred)
-print(0.8068
-)
+print(r2(y_test, y_pred))

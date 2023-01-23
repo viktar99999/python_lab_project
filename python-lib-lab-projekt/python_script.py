@@ -25,5 +25,4 @@ regressor = RandomForestRegressor(n_estimators=20, random_state=42)
 regressor.fit(X_train, y_train)
 y_pred = regressor.predict(X_test)
 r2(y_test, y_pred)
-print(0.7068)
-
+print(r2(y_test, y_pred))

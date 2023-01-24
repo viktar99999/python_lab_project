@@ -54,7 +54,7 @@ python_script2.py
 Database:
 user.csv
 Use:
-DataFrame[].min()
-DataFrame[].max()
-DataFrame[].mean()
-DataFrame[].median()
+DataFrame['Price'].min()
+DataFrame['Price'].max()
+DataFrame['Price'].mean()
+DataFrame['Price'].median()

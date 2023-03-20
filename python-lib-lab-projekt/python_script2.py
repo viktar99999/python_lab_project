@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 import random
 import numpy as np
 import pandas as pd
@@ -13,5 +15,3 @@ print(df['Price'].min())
 print(df['Price'].max())
 print(df['Price'].mean())
 print(df['Price'].median())
-
-

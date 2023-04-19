@@ -13,7 +13,8 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import r2_score as r2
-from sklearn.model_selection import KFold, GridSearchCV
+from sklearn.model_selection import KFold
+from sklearn.model_selection import GridSearchCV
 df = pd.read_csv('train.csv')
 df.head()
 df.shape

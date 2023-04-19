@@ -19,7 +19,7 @@ df = pd.read_csv('train.csv')
 df.head()
 print(df.shape)
 print(df.dtypes)
-df.info()
+print(df.info())
 X = df.iloc[:, 0:19]
 y = df.iloc[:, 19]
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)

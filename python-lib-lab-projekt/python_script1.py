@@ -17,9 +17,9 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import r2_score as r2
 df = pd.read_csv('test.csv')
 df.head()
-df.shape
-df.dtypes
-df.info()
+print(df.shape)
+print(df.dtypes)
+print(df.info())
 X = df.iloc[:, 0:19]
 y = df.iloc[:, 19]
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.88, random_state=42)

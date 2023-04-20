@@ -1,4 +1,3 @@
-
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import random
@@ -9,11 +8,12 @@ import scipy
 import seaborn as sns
 import sklearn
 from sklearn.model_selection import cross_val_score
+from sklearn.model_selection import GridSearchCV
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler, MinMaxScaler
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import r2_score as r2
-from sklearn.model_selection import KFold, GridSearchCV
+from sklearn.model_selection import KFold
 df = pd.read_csv('test.csv')
 df.head()
 df.shape

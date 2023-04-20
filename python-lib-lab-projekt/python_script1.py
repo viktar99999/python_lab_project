@@ -8,7 +8,8 @@ import pandas as pd
 import scipy
 import seaborn as sns
 import sklearn
-from sklearn.model_selection import train_test_split, cross_val_score
+from sklearn.model_selection import cross_val_score
+from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler, MinMaxScaler
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import r2_score as r2

@@ -7,9 +7,9 @@ import sklearn
 file = input("Введите название csv файла: ")
 df = pd.read_csv(file)
 df.head()
-df.shape
-df.dtypes
-df.info()
+print(df.shape)
+print(df.dtypes)
+print(df.info())
 print(df['Price'])
 print(df['Price'].min())
 print(df['Price'].max())

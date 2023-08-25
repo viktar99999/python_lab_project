@@ -1,11 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import random
-import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 import scipy
-import seaborn as sns
 import sklearn
 from sklearn.model_selection import cross_val_score
 from sklearn.model_selection import GridSearchCV

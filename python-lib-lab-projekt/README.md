@@ -15,28 +15,19 @@ Check version pip:
 pip3 --version
 Others.
 Install:
-pip3 install matplotlib
 pip3 install numpy
 pip3 install pandas
-pip3 install plot
 pip3 install scipy
-pip3 install seaborn
 pip3 install sklearn
 Check install python-libs:
 command python3.8
 command python3.9
 import random # base
-import matplotlib
-import matplotlib as mpl
-import matplotlib.pyplot
-import matplotlib.pyplot as plt
 import numpy
 import numpy as np
 import pandas
 import pandas as pd
 import scipy
-import seaborn
-import seaborn as sns
 import sklearn
 Files:
 Model1:

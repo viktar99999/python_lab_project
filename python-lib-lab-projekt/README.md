@@ -34,10 +34,14 @@ Model1:
 python_script.py
 Database:
 train.csv
+File:
+python_script.ipynb
 Model2:
 python_script1.py
 Database:
 test.csv
+File:
+python_script1.ipynb
 My_database:
 Viktar.csv
 Usefull_model:

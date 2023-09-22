@@ -1,7 +1,5 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-import random
-import numpy as np
 import pandas as pd
 import sklearn
 file = input("Введите название csv файла: ")

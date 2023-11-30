@@ -1,17 +1,19 @@
 # python_lab_project
 The project using of model for search aportament in the town.
 Base:
-System - Ubuntu20.04lts
-System - Ubuntu22.04lts
-Programming environment - Python3.8.2
-Programming environment - Python3.9.5
+System - Ubuntu20.04.05lts
+System - Ubuntu22.04.03lts
+Programming environment - Python3.8.10.2.9
+Programming environment - Python3.9.5.2
 Programming environment - Python3.10.12
 Python dependencies from requirements.txt
+Programming environment - Python3.11.0-rc1
 Install:
 Command for install Python:
 sudo apt install python3.8
 sudo apt install python3.9
 sudo apt install python3.10
+sudo apt install python3.11
 Command for install pip:
 sudo apt install python3-pip
 Check version Python:
@@ -26,6 +28,7 @@ Check install python-libs:
 command python3.8
 command python3.9
 command python3.10
+command python3.11
 import pandas
 import pandas as pd
 import sklearn
